@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js" charset="utf-8"></script>
+    <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet"
+        integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+    <title>OdontoManager</title>
+</head>
+
+<body>
+
+    <input type="checkbox" id="check">
+    <!-- AREA DO CABEÇALHO-->
+    <header>
+        <label for="check"><i class="fa fa-bars" id="menu-lateral-btn"></i></label>
+        <div class="conteudo-header">
+        <div class="area-esquerda">
+            <h3>Odonto<span>Manager</span></h3>
+        </div>
+        <div class="area-direita">
+            <a href="#"><i class="fa fa-bell" aria-hidden="true"></i></a>
+            <a href="#"><i class="fa fa-calendar-check-o" aria-hidden="true"></i></a>
+            <a href="#" class="button-sair"><i class="fa fa-user-circle-o" aria-hidden="true"></i>Usuário Fulano</a>
+        </div>
+        </div>
+    </header>
+    <!-- FIM DA AREA DO CABEÇALHO-->
+
+    <!-- AREA DE MENU-MOBILE -->
+    <div class="menu-mobile">
+        <div class="barra-menu">
+            <img src="images/avatar.svg" class="avatar-mobile">
+            <i class="fa fa-bars menu-btn"></i>
+        </div>
+        <div class="menu-mobile-itens">
+            <a href="index.html"><i class="fa fa-calendar"></i><span>Schedule</span></a>
+            <a href="pacientes.html"><i class="fa fa-users"></i><span>Pacientes</span></a>
+            <a href="consultas.html"><i class="fa fa-book"></i><span>Consultas</span></a>
+        </div>
+    </div>
+    <!--FIM DA AREA DE MENU-MOBILE-->
+
+    <!-- AREA DO MENU-->
+
+    <div class="menu-lateral">
+        <div class="menu-info">
+            <img src="images/avatar.svg" class="profile-avatar">
+            <h4>Olá,</h4>
+            <h5>Usuário Fulano</h5>
+        </div>
+        <a href="index.html"><i class="fa fa-calendar" aria-hidden="true"></i><span>Schedule</span></a>
+        <a href="pacientes.html"><i class="fa fa-users" aria-hidden="true"></i><span>Pacientes</span></a>
+        <a href="consultas.html" class="ultimo-a"><i class="fa fa-book" aria-hidden="true"></i><span>Consultas</span></a>
+    </div>
+    <!-- FIM DA AREA DO MENU-->
+
+    <!-- AREA DO CONTEUDO PRINCIPAL-->
+    <div class="conteudo-principal">
+        <h1>SCHEDULE</h1>
+        <div class="calendario">
+            <img src="images/calendar.jpg" alt="">
+      </div>
+    </div>
+    <!-- FIM DA AREA DO CONTEUDO PRINCIPAL-->
+    <script src="js/script.js"></script>
+</body>
+
+</html>

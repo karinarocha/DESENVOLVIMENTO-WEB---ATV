@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js" charset="utf-8"></script>
+    <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet"
+        integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+    <title>OdontoManager</title>
+</head>
+
+<body>
+
+    <input type="checkbox" id="check">
+    <!-- AREA DO CABEÇALHO-->
+    <header>
+        <label for="check"><i class="fa fa-bars" id="menu-lateral-btn"></i></label>
+        <div class="conteudo-header">
+        <div class="area-esquerda">
+            <h3>Odonto<span>Manager</span></h3>
+        </div>
+        <div class="area-direita">
+            <a href="#"><i class="fa fa-bell" aria-hidden="true"></i></a>
+            <a href="#"><i class="fa fa-calendar-check-o" aria-hidden="true"></i></a>
+            <a href="#" class="button-sair"><i class="fa fa-user-circle-o" aria-hidden="true"></i>Usuário Fulano</a>
+        </div>
+        </div>
+    </header>
+    <!-- FIM DA AREA DO CABEÇALHO-->
+
+    <!-- AREA DE MENU-MOBILE -->
+    <div class="menu-mobile">
+      <div class="barra-menu">
+          <img src="images/avatar.svg" class="avatar-mobile">
+          <i class="fa fa-bars menu-btn"></i>
+      </div>
+      <div class="menu-mobile-itens">
+          <a href="index.html"><i class="fa fa-calendar"></i><span>Schedule</span></a>
+          <a href="pacientes.html"><i class="fa fa-users"></i><span>Pacientes</span></a>
+          <a href="consultas.html"><i class="fa fa-book"></i><span>Consultas</span></a>
+      </div>
+  </div>
+  <!--FIM DA AREA DE MENU-MOBILE-->
+
+  <!-- AREA DO MENU-->
+
+  <div class="menu-lateral">
+      <div class="menu-info">
+          <img src="images/avatar.svg" class="profile-avatar">
+          <h4>Olá,</h4>
+          <h5>Usuário Fulano</h5>
+      </div>
+      <a href="index.html"><i class="fa fa-calendar" aria-hidden="true"></i><span>Schedule</span></a>
+      <a href="pacientes.html"><i class="fa fa-users" aria-hidden="true"></i><span>Pacientes</span></a>
+      <a href="consultas.html" class="ultimo-a"><i class="fa fa-book" aria-hidden="true"></i><span>Consultas</span></a>
+  </div>
+  <!-- FIM DA AREA DO MENU-->
+
+    <!-- AREA DO CONTEUDO PRINCIPAL-->
+    <div class="conteudo-principal">
+        <div class="container">
+        <h1>Consultas</h1>
+        <a href="cadastroConsulta.html"><button type="" class="btn-cadastrar"><i class="fa fa-plus-circle"></i>Cadastrar</button></a>
+        <br>
+        <br>
+        <br>
+        <table class="table table-striped">
+            <thead>
+              <tr>
+                <th scope="col">Turno</th>
+                <th scope="col">Horário</th>
+                <th scope="col">Paciente</th>
+                <th scope="col">Tipo</th>
+                <th scope="col">Status</th>
+                <th scope="col"></th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>Manhã</td>
+                <td>08:00</td>
+                <td>Luan Silva</td>
+                <td>Profilaxia</td>
+                <td>Confirmado</td>
+                <td><button type="a" class="btn-excluir">Excluir</button><button type="a" class="btn-editar">Editar</button></td>
+              </tr>
+              <tr>
+                <td>Manhã</td>
+                <td>08:30</td>
+                <td>Karina Rocha</td>
+                <td>Clareamento</td>
+                <td>Confirmado</td>
+                <td><button type="a" class="btn-excluir">Excluir</button><button type="a" class="btn-editar">Editar</button></td>
+              </tr>
+              <tr>
+                <td>Tarde</td>
+                <td>14:00</td>
+                <td>Matheus Emanuel</td>
+                <td>Implante</td>
+                <td>Não-Confirmado</td>
+                <td><button type="a" class="btn-excluir">Excluir</button><button type="a" class="btn-editar">Editar</button></td>
+              </tr>
+              <tr>
+                <td>Tarde</td>
+                <td>15:00</td>
+                <td>Victor Albuquerque</td>
+                <td>Canal</td>
+                <td>Confirmado</td>
+                <td><button type="a" class="btn-excluir">Excluir</button><button type="a" class="btn-editar">Editar</button></td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+    </div>
+    <!-- FIM DA AREA DO CONTEUDO PRINCIPAL-->
+    <script src="js/script.js"></script>
+</body>
+
+</html>

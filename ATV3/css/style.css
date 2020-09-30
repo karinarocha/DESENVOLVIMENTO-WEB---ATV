@@ -1,0 +1,27 @@
+*{
+	font-family: Arial, Helvetica, sans-serif;
+}
+td{
+	color: white;
+}
+body{
+	background-color: black;
+}
+
+.formobjects{
+	font-family: Impact, Charcoal, sans-serif;
+}
+
+.caixa{
+	padding: 10px;
+	margin: auto;
+	margin-top: 150px;
+	width: 650px;
+	border-radius: 15px;
+	background-color: #333;
+}
+
+.img{
+	margin-top: 50px;
+	float: left;
+}
